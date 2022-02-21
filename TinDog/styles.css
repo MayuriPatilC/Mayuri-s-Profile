@@ -1,0 +1,181 @@
+body {
+    font-family: 'Montserrat', sans-serif
+} 
+h2 {
+    font-weight: bolder;
+    font-size: 2.6rem;
+    line-height: 1.4;
+}
+h3 {
+    font-family: 'Arimo', sans-serif;
+
+}
+p {
+    font-size: 1.2rem;
+    color: #665f5e;
+    font-weight: 500;
+}
+.up {
+    position: fixed;
+    right: 2.5rem;
+    bottom: 2.5rem;
+    color: white;
+    background-color: #f7685e;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+/* ********************************************* navbar ********************************************** */
+
+#title {
+    background-color: #f53652;
+    color: white;
+}
+.container-fluid {
+    padding: 3% 15% 0;
+}
+nav {
+    margin-bottom: 2vw;
+}
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-link {
+    font-size: 1.2rem;
+    margin: 0 1vw;
+}
+
+/* ********************************************* title ********************************************** */
+
+.title-col {
+    margin-top: 3rem;
+}
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 4rem;
+    line-height: 1.3;
+}
+.title-btn {
+    margin: 3vw 2vw 0 0;
+}
+.title-btn:hover {
+    font-size: 1.7vw;
+}
+.title-image {
+    width: 60%;
+    transform: rotate(30deg);
+    margin-left: 6rem;
+}
+
+/* ********************************************* Features ********************************************** */
+
+#features {
+    text-align: center;
+    background-color: white;
+    padding: 2% 13% 0;
+    position: relative;
+    bottom: 5rem;
+}
+.feature-col {
+    margin-top: 5rem;
+    padding: 2rem;
+}
+.feature-icon {
+    color: #f0465e;
+    font-size: 3rem;
+}
+.feature-icon:hover {
+    color: #eb1030;
+}
+
+/* ********************************************* Testimonials ********************************************** */
+
+#testimonials {
+    background-color: #f7685e;
+    color: cornsilk;
+    text-align: center;
+}
+.testimonial-image {
+    width: 15%;
+    border-radius: 50%;
+    margin: 2rem;
+}
+.carousel-item {
+    padding: 6rem 15%;
+}
+
+/* ********************************************* Press ********************************************** */
+
+#press {
+    background-color: #f7685e;
+    padding: 3rem;
+    text-align: center;
+}
+.press-image {
+    margin: 1.5rem 1.5rem 0.5rem;
+    width: 14%;
+}
+
+/* ********************************************* Pricing ********************************************** */
+
+#pricing {
+    padding: 5rem 2rem;
+}
+.card {
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+.card-header {
+    background-color: #e6ddc6;
+}
+
+/* ********************************************* CTA ********************************************** */
+
+#cta {
+    background-color: #f7685e;
+    padding: 4rem 15%;
+    text-align: center;
+}
+.cta-h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.5rem;
+}
+
+/* ********************************************* Footer ********************************************** */
+
+#footer {
+    padding: 3rem 0 0.5rem;
+    text-align: center;
+}
+.footer-icon {
+    color: black;
+    margin: 0.5rem;
+}
+.footer-icon:hover {
+    color: brown;
+    font-size: 1.5vw;
+}
+.footer-text {
+    font-size: 1rem;
+}
+
+
+/* ********************************************* Media Query *********************************************** */
+@media (max-width : 990px)
+{
+#title {
+    text-align: center;
+}
+.title-image {
+    margin: 0 0 2rem;
+    transform: rotate(0);
+    width: 50%;
+}
+#features {
+    position: static;
+}
+#pricing {
+    text-align: center;
+}
+}
