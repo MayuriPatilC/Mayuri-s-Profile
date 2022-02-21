@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+}
+button {
+    background-color: transparent;
+    border: none;
+    color: rgb(214, 32, 32);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5.5rem;
+    font-weight: bold;
+}
+button:active {
+    font-size: 5.2rem;
+}
+p {
+    font-size: 2rem;
+}
+.dice {
+    display: inline-block;
+    margin: 0 2rem;
+}
+img {
+    height: 15vw;
+}
+.winner-flag {
+    height: 6rem;
+}
